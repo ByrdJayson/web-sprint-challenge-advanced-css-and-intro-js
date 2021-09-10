@@ -283,8 +283,18 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(array) {
+  const object = { 
+    id: 20,
+    name: 'Jayson', 
+    years: '1995 - 2021',
+    genre: 'Web Design', 
+    nationality: 'American',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et lectus aliquet, aliquam lacus nec.'
+  };
+
+  array.pop(object);
+  return array
 }
 
 

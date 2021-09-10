@@ -31,7 +31,7 @@ A variable is an item that can be assigned a value. This value may be changed or
 4. What is the purpose of using functions in code?
 Functions are incredibly useful as they help us create code that can be used over and over with different bits of information as parameters.
 5. How do you access a key inside of an object inside of an array?
-array[i]['object'].key
+In the example of the artists array, it would be artists[0].name where 0 is the index and name is the name key, or artists[0]['years'] where 0 is the index and years is they key. The latter would be used if the key contained spaces.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 

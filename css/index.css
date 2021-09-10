@@ -187,6 +187,10 @@ button:hover{
         border-left:1px solid #626262;
     }
 
+    header{
+        padding-bottom: 2rem;
+    }
+
     .artists-container{
         width: 100%;
         flex-wrap: wrap;
